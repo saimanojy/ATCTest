@@ -1,0 +1,330 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 28,
+        "name": "ACT Round2 Scenario",
+        "description": "",
+        "id": "act-scenario-feature-file;act-round2-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2058337600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 248200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24626281600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "valid registered email and password in 1 row",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinitions.valid_registered_email_and_password_in_row(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2065336900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "clicked on SignIn",
+            "match": {
+              "location": "StepDefinitions.clicked_on_SignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2447099800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "login should be successfull",
+            "match": {
+              "location": "StepDefinitions.login_should_be_successfull()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1561647500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicked My addresses",
+            "match": {
+              "location": "StepDefinitions.clicked_My_addresses()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24324500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "addresses page should be navigated successfully",
+            "match": {
+              "location": "StepDefinitions.addresses_page_should_be_navigated_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1381173100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicked Add New Addresses",
+            "match": {
+              "location": "StepDefinitions.clicked_Add_New_Addresses()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8111100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Add address pages should be displayed",
+            "match": {
+              "location": "StepDefinitions.add_address_pages_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5842775100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user fills all fields from 1 with new data and click on save",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinitions.user_fills_all_fields_from_with_new_data_and_click_on_save(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2906159700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "my address page should be displayed",
+            "match": {
+              "location": "StepDefinitions.my_address_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2333339200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "clicked on women and selected summer dresses",
+            "match": {
+              "location": "StepDefinitions.clicked_on_women_and_selected_summer_dresses()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5173096100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "summer dresses page should be opened",
+            "match": {
+              "location": "StepDefinitions.summer_dresses_page_should_be_opened()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 128589000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "change view to list view",
+            "match": {
+              "location": "StepDefinitions.change_view_to_list_view()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31404790000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "add 3 items to cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 4
+                }
+              ],
+              "location": "StepDefinitions.add_items_to_cart(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3243316900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clicked on checkout",
+            "match": {
+              "location": "StepDefinitions.clicked_on_checkout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16706400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "order page should be opened",
+            "match": {
+              "location": "StepDefinitions.order_page_should_be_opened()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10103611400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "complete the order",
+            "match": {
+              "location": "StepDefinitions.complete_the_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 582232500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clicked on username",
+            "match": {
+              "location": "StepDefinitions.clicked_on_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1251064900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "acoount details should be opened",
+            "match": {
+              "location": "StepDefinitions.acoount_details_should_be_opened()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1040720100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "clicked order history and details",
+            "match": {
+              "location": "StepDefinitions.clicked_order_history_and_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3459017100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "order history should be displayed",
+            "match": {
+              "location": "StepDefinitions.order_history_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2391268700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "clicked sign out",
+            "match": {
+              "location": "StepDefinitions.clicked_sign_out()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8823600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "signIn home page should be displayed",
+            "match": {
+              "location": "StepDefinitions.signin_home_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "ACT Scenario feature file",
+    "description": "",
+    "id": "act-scenario-feature-file",
+    "keyword": "Feature",
+    "uri": "Features/ACTScenario.feature"
+  }
+]

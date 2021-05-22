@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="104.058071">
+<testcase classname="ACT Scenario feature file" name="ACT Round2 Scenario" time="104.058071">
+<system-out><![CDATA[Given valid registered email and password in 1 row..........................passed
+And clicked on SignIn.......................................................passed
+Then login should be successfull............................................passed
+When clicked My addresses...................................................passed
+Then addresses page should be navigated successfully........................passed
+When clicked Add New Addresses..............................................passed
+Then Add address pages should be displayed..................................passed
+When user fills all fields from 1 with new data and click on save...........passed
+Then my address page should be displayed....................................passed
+When clicked on women and selected summer dresses...........................passed
+Then summer dresses page should be opened...................................passed
+Then change view to list view...............................................passed
+And add 3 items to cart.....................................................passed
+When clicked on checkout....................................................passed
+Then order page should be opened............................................passed
+Then complete the order.....................................................passed
+When clicked on username....................................................passed
+Then acoount details should be opened.......................................passed
+When clicked order history and details......................................passed
+Then order history should be displayed......................................passed
+When clicked sign out.......................................................passed
+Then signIn home page should be displayed...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
