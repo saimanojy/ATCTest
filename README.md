@@ -12,7 +12,7 @@
 
 • Screenshots will be pasted in screenshots folder in YYYYMMDD-HHmmss-description.png format
 
-• All details will be fetched from input.xlsx file
+• All input details will be fetched from input.xlsx file under src\test\resources
  
 
 **#Failure that are handled Which are to be reported in Real-Time:**
