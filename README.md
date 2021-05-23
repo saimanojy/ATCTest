@@ -26,4 +26,4 @@
 
 • URL blocked page when displayed after clicking confirm order leads to error page when URL blocked condition is handled. This was handled in checkAssertEquals methods in Utils.java Class
 
-
+All the above 3 error screenshots can be referred from screenshots folder.
