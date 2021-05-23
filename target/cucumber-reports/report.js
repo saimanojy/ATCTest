@@ -281,49 +281,49 @@ formatter.match({
   "location": "StepDefinitions.valid_registered_email_and_password_in_row(int)"
 });
 formatter.result({
-  "duration": 24626281600,
+  "duration": 21979431700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.clicked_on_SignIn()"
 });
 formatter.result({
-  "duration": 2065336900,
+  "duration": 2591003600,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.login_should_be_successfull()"
 });
 formatter.result({
-  "duration": 2447099800,
+  "duration": 24328200,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.clicked_My_addresses()"
 });
 formatter.result({
-  "duration": 1561647500,
+  "duration": 1609293300,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.addresses_page_should_be_navigated_successfully()"
 });
 formatter.result({
-  "duration": 24324500,
+  "duration": 17008100,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.clicked_Add_New_Addresses()"
 });
 formatter.result({
-  "duration": 1381173100,
+  "duration": 2159719000,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.add_address_pages_should_be_displayed()"
 });
 formatter.result({
-  "duration": 8111100,
+  "duration": 9272600,
   "status": "passed"
 });
 formatter.match({
@@ -336,35 +336,35 @@ formatter.match({
   "location": "StepDefinitions.user_fills_all_fields_from_with_new_data_and_click_on_save(int)"
 });
 formatter.result({
-  "duration": 5842775100,
+  "duration": 3914746300,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.my_address_page_should_be_displayed()"
 });
 formatter.result({
-  "duration": 2906159700,
+  "duration": 70041700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.clicked_on_women_and_selected_summer_dresses()"
 });
 formatter.result({
-  "duration": 2333339200,
+  "duration": 5124619600,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.summer_dresses_page_should_be_opened()"
 });
 formatter.result({
-  "duration": 5173096100,
+  "duration": 10781100,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.change_view_to_list_view()"
 });
 formatter.result({
-  "duration": 128589000,
+  "duration": 125589300,
   "status": "passed"
 });
 formatter.match({
@@ -377,78 +377,74 @@ formatter.match({
   "location": "StepDefinitions.add_items_to_cart(int)"
 });
 formatter.result({
-  "duration": 31404790000,
+  "duration": 31703562700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.clicked_on_checkout()"
 });
 formatter.result({
-  "duration": 3243316900,
+  "duration": 3378768400,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.order_page_should_be_opened()"
 });
 formatter.result({
-  "duration": 16706400,
+  "duration": 8472800,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.complete_the_order()"
 });
 formatter.result({
-  "duration": 10103611400,
+  "duration": 10164975600,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.clicked_on_username()"
 });
 formatter.result({
-  "duration": 582232500,
+  "duration": 1896446900,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.acoount_details_should_be_opened()"
 });
 formatter.result({
-  "duration": 1251064900,
+  "duration": 8905700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.clicked_order_history_and_details()"
 });
 formatter.result({
-  "duration": 1040720100,
+  "duration": 3137529000,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.order_history_should_be_displayed()"
 });
 formatter.result({
-  "duration": 3459017100,
+  "duration": 442860400,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.clicked_sign_out()"
 });
 formatter.result({
-  "duration": 2391268700,
+  "duration": 4430026200,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.signin_home_page_should_be_displayed()"
 });
 formatter.result({
-  "duration": 8823600,
+  "duration": 9811000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2058337600,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 248200,
+  "duration": 210000,
   "status": "passed"
 });
 });

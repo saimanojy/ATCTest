@@ -8,6 +8,7 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
@@ -91,14 +92,13 @@ public class Utils {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView();", ele);
 		String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
-		// System.out.println("time"+timeStamp);
+		// System.out.println(msg + "_" + timeStamp);
 		File SrcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(SrcFile, new File("./screenshots/" + msg + "_" + timeStamp + ".png"));
 	}
 
 	// function to check two values and report assertion error
 	public static void checkAssertEquals(WebDriver driver, String expected, String msg) {
-		// TODO Auto-generated method stub
 		// System.out.println("checking");
 		int refreshRate = 3;
 		try {
@@ -129,7 +129,8 @@ public class Utils {
 
 				}
 
-			}
+			} else
+				e.printStackTrace();
 		}
 
 	}

@@ -79,17 +79,10 @@ public class StepDefinitions {
 
 	@After // executes when scenario fails
 	public void tearDown(Scenario scenario) throws IOException {
-		System.out.println("Test case Failed");
 		if (scenario.isFailed()) {
 			// Take a screenshot...
 			Utils.takeSceenShot(driver, "Error Page");
 		}
-	}
-
-	@After // executes when scenario is passed
-	public void cleanUp() {
-		// closes driver
-		driver.quit();
 	}
 
 	@Given("^valid registered email and password in (\\d+) row$")

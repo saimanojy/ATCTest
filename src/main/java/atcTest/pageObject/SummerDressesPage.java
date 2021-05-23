@@ -3,6 +3,7 @@ package atcTest.pageObject;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -16,6 +17,7 @@ public class SummerDressesPage extends ProductPage {
 	public By listView = By.cssSelector("li#list");
 	public By listViewNoOfItems = By
 			.xpath("//span[contains(text(),'Add to cart')]/parent::a/following-sibling::a/span");
+	public By listViewProducts = By.cssSelector("div[class*=center] a[class*=\"product-name\"]");
 
 	public SummerDressesPage(WebDriver driver) {
 		super(driver);
@@ -31,19 +33,19 @@ public class SummerDressesPage extends ProductPage {
 	}
 
 	public void addItemsToCart(int row, int quantity, String size) {
-		List<WebElement> items = getNumberOfItems();
-		//System.out.println("itrems" + items.size());
-
+		List<WebElement> items = getNumberOfItems(); // gets number of available items
+		List<WebElement> itemNames = getNumbeOfItemNames(); // gets names of all items
+		String productName = itemNames.get(row - 1).getText().trim();
+		// System.out.println("itrems" + items.size());
 		items.get(row - 1).click();
-		Utils.checkAssertEquals(driver, "Printed Summer Dress - My Store", "Product not selected properly");
-		int count=1;
+		Utils.checkAssertEquals(driver, productName + " - My Store", "Product not selected properly");
+		int count = 1;
+
 		// quantity selection
-		// System.out.println("qc"+getQuantityField().getAttribute("value"));
-		
 		while (count != quantity) {
-				getQuantityPlusField().click();
-				count++;
-			}
+			getQuantityPlusField().click();
+			count++;
+		}
 		Assert.assertEquals(Integer.parseInt(getQuantityField().getAttribute("value")), quantity,
 				"Quantity Plus Minus Buttons Not working");
 
@@ -52,10 +54,10 @@ public class SummerDressesPage extends ProductPage {
 
 		// picking first color
 		getColors().get(0).click();
-		
+
 		// click add to cart
 		getAddToCartBtn().click();
-		
+
 		// click continue shop button
 		getContinueShopBtn().click();
 
@@ -63,6 +65,10 @@ public class SummerDressesPage extends ProductPage {
 		getNavigateSummmerPage().click();
 		Utils.checkAssertEquals(driver, "Summer Dresses - My Store", "Navigation unsuccessful to Summer dresses page");
 
+	}
+
+	private List<WebElement> getNumbeOfItemNames() {
+		return Utility.Utils.waitForElementsPresence(driver, listViewProducts, 20);
 	}
 
 	private List<WebElement> getNumberOfItems() {

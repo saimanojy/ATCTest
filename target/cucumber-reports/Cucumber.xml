@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="104.058071">
-<testcase classname="ACT Scenario feature file" name="ACT Round2 Scenario" time="104.058071">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="92.817403">
+<testcase classname="ACT Scenario feature file" name="ACT Round2 Scenario" time="92.817403">
 <system-out><![CDATA[Given valid registered email and password in 1 row..........................passed
 And clicked on SignIn.......................................................passed
 Then login should be successfull............................................passed
