@@ -13,6 +13,9 @@
 • Screenshots will be pasted in screenshots folder in YYYYMMDD-HHmmss-description.png format
 
 • All input details will be fetched from input.xlsx file under src\test\resources
+
+• Make sure to delete address added from second instance of triggering run else it would throw assertion error as address was already present.
+
  
 
 **#Failure that are handled Which are to be reported in Real-Time:**
