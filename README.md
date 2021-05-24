@@ -6,7 +6,7 @@
 
 **#Points to be Noted before Run:**
 
-• Place Chrome driver under drivers folder
+• Place Chrome driver under drivers folder (do create "drivers" folder and place it under project level)
 
 • Suggested to trigger run from runner class in src\test\java
 
