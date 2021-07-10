@@ -42,7 +42,7 @@ Automation Steps:
 
  
 
-**#Failure that are handled Which are to be reported in Real-Time:**
+**#Failure that are handled but has to be reported in Real-Time:**
 
 • when navigating from page to page a webPage saying URL blocked is being displayed, to handle that a logic is written in checkAssertEquals method in Utils.java class. To show entire flow I have handled that error but however this has to be reported in real time project.
 	
